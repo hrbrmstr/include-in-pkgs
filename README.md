@@ -17,6 +17,10 @@ dependency stack outweigh the performance penalty costs.
 
 Contributions can be made via PR or issues.
 
+# IF YOU WANT EASIER ACCESS TO THESE IN A PACKAGE
+
+Try [`freebase`ing](https://github.com/hrbrmstr/freebase).
+
 ## Available things
 
   - `is_empty()`

@@ -3,8 +3,8 @@
 
 # include-in-pkgs
 
-R files that are meant to be *copied into new packages* (i.e. this repo
-is not a pkg just files with code) to both reduce dependencies in
+R code/files that are meant to be *copied into new packages* (i.e. this
+repo is not a pkg just files with code) to both reduce dependencies in
 general but also reduce dependencies on compiled code. The compiled code
 equivalents are (generally) faster than these and most of them also have
 more robust features. Basically: use these components if they cover your

@@ -5,11 +5,15 @@
 
 R code/files that are meant to be *copied into new packages* (i.e. this
 repo is not a pkg just files with code) to both reduce dependencies in
-general but also reduce dependencies on compiled code. The compiled code
-equivalents are (generally) faster than these and most of them also have
-more robust features. Basically: use these components if they cover your
-use-cases *and* if the benefits of a thinner dependency stack outweigh
-the performance penalty costs.
+general but also reduce dependencies on compiled code.
+
+Unless otherwise noted in a comment near a function, these are all
+implemented in base R.
+
+The compiled code equivalents are (generally) faster than these and most
+of them also have more robust features. Basically: use these components
+if they cover your use-cases *and* if the benefits of a thinner
+dependency stack outweigh the performance penalty costs.
 
 Contributions can be made via PR or issues.
 
